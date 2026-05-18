@@ -1,11 +1,11 @@
-import { useState } from 'react';
-import './App.css'
-import { LoadingScreen } from './components/Loadingscreen';
+import { useState } from "react";
+import "./App.css";
+import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/NavBar";
-import { MobileMenu } from './components/MobileMenu';
-import { Home } from './components/sections/Home';
-import { About } from './components/sections/About';
-import "./index.css"
+import { MobileMenu } from "./components/MobileMenu";
+import { Home } from "./components/sections/Home";
+import { About } from "./components/sections/About";
+import "./index.css";
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,5 +25,4 @@ function App() {
   );
 }
 
-
-export default App
+export default App;
